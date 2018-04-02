@@ -45,7 +45,7 @@ pageEncoding="ISO-8859-1"%>
 
 <body>
 
-	<!--	Navbar	-->
+	<!--	Navbaar	-->
 
 	<jsp:include page="../partials/navbarBS4test.jsp"/>
 
