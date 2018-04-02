@@ -1,0 +1,221 @@
+body {
+	background-image: url(../img/ride-background.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	line-height: 1.1;
+}
+
+@media only screen and (max-width:767px) {
+	body {
+		background: #eaeaea;
+	}
+}
+
+/* Navbar */
+.navbar, .dropdown-menu {
+	background-color: #404040;
+}
+
+.navbar-brand {
+	margin: 0;
+	padding: 0 1em 0 0;
+}
+
+.nav-link {
+	font-size: 130%;
+	margin: 0 .25em 0 .25em;
+}
+
+.nav-link, .dropdown-item {
+	color: #f00 !important;
+    font-family: 'Bree Serif', serif;
+}
+
+.nav-link:hover, .dropdown-item:hover {
+	background-color: #000;
+	color: #fff !important;
+}
+
+/* Main */
+.title {
+	margin: .65em;
+}
+
+.new {
+	margin: 3em;
+	font-weight: 700;
+}
+
+.table {
+	background-color: #fff;
+}
+
+.border {
+	background-color: #f7f7f7 !important;
+	padding: 1em;
+	border-color: #000 !important;
+}
+
+.btn-btm {
+	margin: 1em;
+}
+
+
+
+
+
+
+
+
+
+/*Old CSS*/
+
+
+
+/*#formTitle {
+	text-align: center;
+}
+
+#user {
+	text-align: left;
+	align-content: left;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+#details th {
+	text-align: right;
+}
+
+#details td {
+	text-align: left;
+}
+
+#info {
+	text-align: center;
+	align-content: center;
+	margin: auto;
+	font-size: 120%;
+}
+
+#special {
+	text-align: center;
+	align-content: center;
+}
+
+#checkbox {
+	margin-left: 1em;
+	margin-right: 1em;
+	transform: scale(1.8);
+}
+
+#foot {
+	text-align: center;
+	align-content: center;
+	margin-top: 1em;
+	font-size: 120%;
+}
+
+#final {
+	text-align: center;
+	align-content: center;
+	font-size: 120%;
+}
+
+#charge {
+	margin-bottom: .7em !important;
+	padding-bottom: .7em !important;
+}
+
+#submit2 {
+	margin-top: 1.5em;
+	align-content: center;
+	text-align: center;
+}
+
+#submit3 {
+	margin-top: 1em;
+	font-size: 105%;
+}
+
+#sent {
+	text-align: center;
+	font-weight: bold;
+	font-size: 140%;
+	margin: 1em;
+	margin-bottom: 1em;
+}
+
+#send {
+	margin: .5em;
+}
+
+#confirmation {
+	text-align: center;
+	font-size: 130%;
+	margin: 2em !important;
+}
+
+#bottom {
+	margin-bottom: 30em !important;
+	margin-top: 1em !important;
+	text-align: center;
+	align-content: center;
+	margin: auto;
+	font-size: 120%;
+}
+
+#trip {
+	align-content: right !important;
+	text-align: right !important;
+}
+
+#pickup {
+	margin: auto;
+	padding: auto;
+	text-align: center;
+	align-content: center;
+	font-size: 70%;
+	margin-left: 1.5em;
+}
+
+#search {
+	align-content: center;
+	text-align: center;
+}*/
+
+/* added for slideDown effect at load  */
+.section {
+	display: none;
+}
+
+.form-group {
+	margin-bottom: 11px;
+}
+
+.input-group-addon {
+	padding: 3px 10px;
+}
+
+#clockTimes { display: none; }
+
+#recurrence { display: none; }
+
+#dayPattern { display: none; }
+
+.grayed {
+	color: #bbb;
+}
+
+#rideConfirmCheckbox { display: none; }
+
+
+/* Style for Login
+#placeholder {
+	text-align: center;
+	align-content: center;
+	font-size: 120%;
+	margin: auto;
+}*/
